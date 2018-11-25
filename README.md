@@ -8,4 +8,4 @@ relationship between the player and college table. Unfortunately I could not fin
 player had when they attended to college. Therefore, the years attribute of the Attended relationship was removed.
 
 ## Create Table Statements
-Create Table Statements for the data base can be found at:[CreateTables.sql](https://github.com/caameron/CS586-GradProject/blob/master/CreateTables/CreateTable.sql)
+Create Table Statements for the data base can be found at: [CreateTables.sql](https://github.com/caameron/CS586-GradProject/blob/master/CreateTables/CreateTable.sql)
