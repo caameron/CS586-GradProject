@@ -47,7 +47,7 @@ the same and the data was parsed in to its relevant tables. The specific steps h
    [Query](https://github.com/caameron/CS586-GradProject/blob/master/Queries/5.sql)
    [Result](https://github.com/caameron/CS586-GradProject/blob/master/Query_Results/Result5.csv) <br />
    (Note: Many teams have multiple people with the tallest height so there will be multiple entries per team.
-   In addition players switch between teams during the season and will show up for multiple teams.)
+   In addition players switch between teams during the season and will show up for multiple teams.) <br />
    *Original Question: Who is the tallest player on each team?*
    *I changed the wording of the question to be more specific too give a better query result. 
    *The original result contained many the same results for each team*
@@ -104,6 +104,6 @@ the same and the data was parsed in to its relevant tables. The specific steps h
 20. What player has played the most amount of seasons?
    [Query](https://github.com/caameron/CS586-GradProject/blob/master/Queries/20.sql)
    [Result](https://github.com/caameron/CS586-GradProject/blob/master/Query_Results/Result20.csv) <br />
-   (Due to my data not containing many seasons many players are returned because they have all played the past 7 seasons)
+   (Note: Due to my data not containing many seasons many players are returned because they have all played the past 7 seasons)
    
    
