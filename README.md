@@ -106,4 +106,5 @@ the same and the data was parsed in to its relevant tables. The specific steps h
    [Result](https://github.com/caameron/CS586-GradProject/blob/master/Query_Results/Result20.csv) <br />
    (Note: Due to my data not containing many seasons many players are returned because they have all played the past 7 seasons)
    
-   
+## Table Contents
+A listing of all the contents for each of the tables in the data base are located in this folder : [TableContents](https://github.com/caameron/CS586-GradProject/tree/master/TablesContents)
