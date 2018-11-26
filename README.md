@@ -49,7 +49,7 @@ the same and the data was parsed in to its relevant tables. The specific steps h
    (Note: Many teams have multiple people with the tallest height so there will be multiple entries per team.
    In addition players switch between teams during the season and will show up for multiple teams.) <br />
    *Original Question: Who is the tallest player on each team?*
-   *I changed the wording of the question to be more specific too give a better query result. 
+   *I changed the wording of the question to be more specific too give a better query result.* <br />
    *The original result contained many the same results for each team*
 6. What is the most common position between all players?
    [Query](https://github.com/caameron/CS586-GradProject/blob/master/Queries/6.sql)
@@ -57,7 +57,7 @@ the same and the data was parsed in to its relevant tables. The specific steps h
 7. What college has the most guards come from?
    [Query](https://github.com/caameron/CS586-GradProject/blob/master/Queries/7.sql)
    [Result](https://github.com/caameron/CS586-GradProject/blob/master/Query_Results/Result7.csv) <br />
-   *Original Question: What state has the most point guards come from?*
+   *Original Question: What state has the most point guards come from?* <br />
    *Question was changed to college because the state data for each player was not obtained*
 8. What is the name of the player who plays the most minutes on each team?
    [Query](https://github.com/caameron/CS586-GradProject/blob/master/Queries/8.sql)
@@ -69,7 +69,7 @@ the same and the data was parsed in to its relevant tables. The specific steps h
 10. What is the number of players from each college
    [Query](https://github.com/caameron/CS586-GradProject/blob/master/Queries/10.sql)
    [Result](https://github.com/caameron/CS586-GradProject/blob/master/Query_Results/Result10.csv) <br />
-   *Original Question: What is the number of players from each state?*
+   *Original Question: What is the number of players from each state?* <br />
    *Question was changed to college because the state data for each player was not obtained*
 11. What team has the most amount of assists?
    [Query](https://github.com/caameron/CS586-GradProject/blob/master/Queries/11.sql)
@@ -83,7 +83,7 @@ the same and the data was parsed in to its relevant tables. The specific steps h
 14. What team has made the most field goals in one season?
    [Query](https://github.com/caameron/CS586-GradProject/blob/master/Queries/14.sql)
    [Result](https://github.com/caameron/CS586-GradProject/blob/master/Query_Results/Result14.csv) <br />
-   *Original Question: What team has made the most fouls in one season?*
+   *Original Question: What team has made the most fouls in one season?* <br />
    *Question was changed to field goals because the data for the amount of fouls for each player was not obtained*
 15. What player started the most games for each position?
    [Query](https://github.com/caameron/CS586-GradProject/blob/master/Queries/15.sql)
