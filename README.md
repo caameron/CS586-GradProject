@@ -3,6 +3,13 @@ Grad Project for Intro to Databases
 
 ![alt text](https://github.com/caameron/CS586-GradProject/blob/master/ER-Diagram.PNG)
 
+For my ER-Diagram I wanted show the different type of relationships that a player can have with the other entities
+in the NBA such as teams, seasons, and positions. In additon, while displaying these relationships I also wanted to show
+a players stats for that specific relationship. This is how the basic relationships of a player playing for a specific team, 
+season, or position were formed in the diagram. There are other information about a player that exist outside of the NBA,
+that may or not may be correlated to their overall statistics. This is the reason why the ER-Diagram contains a college entity
+and a relationship with the player. The database could be used to check if there are any certain statistics that correlate
+to some college.  (complex relationships)
 The final ER-Diagram for the project only had one change made during the implementation process. The change was made to the
 relationship between the player and college table. Unfortunately I could not find data on how many years or what major each
 player had when they attended to college. Therefore, the years attribute of the Attended relationship was removed.
