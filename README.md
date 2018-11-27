@@ -9,7 +9,9 @@ a players stats for that specific relationship. This is how the basic relationsh
 season, or position were formed in the diagram. There are other information about a player that exist outside of the NBA,
 that may or not may be correlated to their overall statistics. This is the reason why the ER-Diagram contains a college entity
 and a relationship with the player. The database could be used to check if there are any certain statistics that correlate
-to some college.  (complex relationships)
+to some college. Finally I wanted to show more complex relationships between players, seasons, and positions. A player can play for
+multiple teams in one season, their statistics last over multiple seasons, they may have played multiple positions, etc. This is
+shown through the ternary relationships in the ER-Diagram. <br /> 
 The final ER-Diagram for the project only had one change made during the implementation process. The change was made to the
 relationship between the player and college table. Unfortunately I could not find data on how many years or what major each
 player had when they attended to college. Therefore, the years attribute of the Attended relationship was removed.
