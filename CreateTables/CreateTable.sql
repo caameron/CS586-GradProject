@@ -113,7 +113,7 @@ CREATE TABLE Season_team (
   PRIMARY KEY (Player_id, team_id, season_id)
 );
 
-/* INSERT STATEMENTS FOR LOADING DATA AFTER THIS POINT /*
+/* INSERT STATEMENTS FOR LOADING DATA AFTER THIS POINT */
 INSERT INTO staging(name, height, weight, year_start, year_end, dob, college, position) VALUES
 ('Alex Abrines',78,190,2017,2018,'08/01/1993','', 'G-F');
 
