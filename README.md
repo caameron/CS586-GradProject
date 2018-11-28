@@ -126,4 +126,18 @@ The specific steps have been outline below.
 A listing of all the contents for each of the tables in the data base are located in this folder : [TableContents](https://github.com/caameron/CS586-GradProject/tree/master/TablesContents)
 
 ## Application
+For my sample application I created a simple client side application that is implemented using php and html. As of right the time
+that I am writing this file, I have converted it in to an executable file that runs on windows. The application will connect with
+the postgres database that the class uses using php’s built in tools. There are many functions which interact wil PostgreSQL which
+were used to connect to the database and execute queries. Due to this no additional library was needed to complete the application.
+As for the GUI, it is very minimalistic with a few drop down menus and the results displayed back in a table format.
+The specifics of the application are described below.
+
+The overall design of the application was to give the user the ability to choose certain criteria such as teams or positions and
+have the database return the statistics for the players that meet those requirements. The application does this through the use
+of drop down menus for both positions and teams but, chooses the most current season in the database by default. The query to get
+the data from the database is mostly pre-written with variables in the where clause to choose specific requirements. Once the query
+is obtained with the correct requirements a connection is made to the database and the query is ran to obtain the results. The results
+are then displayed back to the user in table form using html code. Lastly for simplicity reasons only the main statitical information
+is returned for each player (rebounds, assits, steals, blocks, points).
 
