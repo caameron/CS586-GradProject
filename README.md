@@ -141,3 +141,5 @@ is obtained with the correct requirements a connection is made to the database a
 are then displayed back to the user in table form using html code. Lastly for simplicity reasons only the main statitical information
 is returned for each player (rebounds, assits, steals, blocks, points).
 
+Sample input and output for the application can be found at:  [Input/Output](https://github.com/caameron/CS586-GradProject/tree/master/App/Sample_InputOutput)
+
