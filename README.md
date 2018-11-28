@@ -24,17 +24,24 @@ Create Table Statements for the data base can be found at: [CreateTables.sql](ht
 Source of data can be found at https://www.kaggle.com/drgilermo/nba-players-stats#Seasons_Stats.csv
 Or in the CSV files in the Data folder.
 
-The original plan to populate the database was to use the copy command to load the data into a temporary staging table and from
-there parse it into the relevant tables. However, during this process I had issues with the copy command which did not end up
-getting resolved. I instead used Excel to parse the data in to SQL Insert commands which inserted the data in to staging tables
-(the line of code used to parse each row of data can be found in the CreateTable file [CreateTables.sql](https://github.com/caameron/CS586-GradProject/blob/master/CreateTables/CreateTable.sql)). After which the loading process stayed
-the same and the data was parsed in to its relevant tables. The specific steps have been outline below.
+The original plan to populate the database was to use the copy command to load the data into a temporary staging table. From
+there the data would be parsed into its relevant tables by using sql queries. However, during this process I ran into issues with
+the copy command telling me I did not have permission to execute it on the database. After some research I decided on resolving the
+the issue by using a slightly different means to populate the database. So instead I placed the raw data in to an Excel spreadsheet
+and used its own language to parse the data in to SQL Insert commands. The insert commands were then used to populate the staging tables
+after which the loading process stayed the same and the data was parsed in to its relevant tables.
+(the line of code used to parse each row of data can be found in the CreateTable file [CreateTables.sql](https://github.com/caameron/CS586-GradProject/blob/master/CreateTables/CreateTable.sql)).
+Lastly, there were a few tables which the raw data did not have information for. This included the position and team table, for these
+tables data had to be manually entered. Fortunately this only encompassed a few rows of data, for the position table the names and 
+abbreviations of the positions had to be manually entered and for the team table all the names of the teams and their abbreivations
+had to be entered.
+The specific steps have been outline below.
 
 1. Obtain data from Kaggle in csv/excel format.
 2. Create excel code to parse data in to insert statements which will be used to load the staging table.
 3. The player, college, positionPlayed, played_for, season, played_in, and season_team tables are then populated using the staging
-   tables by parsing the specific data needed using SQL statements. The specific statements used to parse the data can be found in
-   the CreateTable file. [CreateTables.sql](https://github.com/caameron/CS586-GradProject/blob/master/CreateTables/CreateTable.sql)
+   tables by parsing the specific data needed using SQL statements. The specific statements used to parse the data in to insert
+   queries and to their relevant tables can be found in the CreateTable file. [CreateTables.sql](https://github.com/caameron/CS586-GradProject/blob/master/CreateTables/CreateTable.sql)
 4. The position table had its data loaded in manually by entering in Guard, Forward, and Center
 5. The team table also had to be loaded in manually due to the data set only having the abbreviations of each team.
 
