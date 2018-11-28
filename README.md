@@ -64,9 +64,9 @@ The specific steps have been outline below.
    [Result](https://github.com/caameron/CS586-GradProject/blob/master/Query_Results/Result5.csv) <br />
    (Note: Many teams have multiple people with the tallest height so there will be multiple entries per team.
    In addition players switch between teams during the season and will show up for multiple teams.) <br />
-   *Original Question: Who is the tallest player on each team?*
+   *Original Question: Who is the tallest player on each team?* <br />
    *I changed the wording of the question to be more specific too give a better query result.* <br />
-   *The original result contained many the same results for each team*
+   *The original result contained many of the same results for each team and didn't provide any quality information*
 6. What is the most common position between all players?
    [Query](https://github.com/caameron/CS586-GradProject/blob/master/Queries/6.sql)
    [Result](https://github.com/caameron/CS586-GradProject/blob/master/Query_Results/Result6.csv)
